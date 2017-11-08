@@ -211,19 +211,20 @@ button {
 	background-color: #E2E4E6;
 	padding: 2px;
 	border: transparent;
+	display: inline-block;
 }
 
 input {
-	margin: 20px;
-	width: 270px;
-	height: 40px;
+	margin: 2px;
+	width: 263px;
+	height: 33px;
 	border-radius: 5px;
-	background-color: #005485;
-	padding: 2px;
-	border: transparent;
+	background-color: #D7D8DA;
+	border: 1px solid #aaa;
+	font-size: 14px;
 }
 ::placeholder { 
-	color: #FFF; 
+	color: #403F4D;
 	font-size: 14px;
 	opacity: 0.5;
 	padding: 10px;
@@ -237,4 +238,33 @@ button:hover{
 
 #textList {
 	display: none;
+}
+
+.submit {
+	background-color: #5AAC44;
+	color: #FFF;
+	width: 90px;
+	height: 30px;
+	opacity: 1;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.fa-times {
+	color: #aaa;
+	font-size: 20px;
+	margin-left: -10px;
+
+}
+
+.submit:hover {
+	background-color: #519839;
+}
+
+.submit:active {
+	background-color: #519839;
+}
+.fa-times:hover {
+	color: #4D4D4D;
+	cursor: pointer;
 }
