@@ -9,7 +9,7 @@ body {
 
 /*MENU*/
 .menu {
-	background-color: #0094AD;
+	background-color: #005485;
 	color: #FFF;
 	height: 40px;
 	vertical-align: middle;
@@ -24,7 +24,7 @@ nav div {
 	width: 120px;
 	height: 80%;
 	color: #FFF;
-	background-color: #66BFCE;
+	background-color: #66A3C7;
 	border-radius: 4px;
 	border: transparent;
 	font-size: 25px;
@@ -48,7 +48,7 @@ nav div {
 	font-size: 15px;
 	text-align: right;
 	padding-right: 10px;
-	background-color: #66BFCE;
+	background-color: #66A3C7;
 	border-radius: 4px;
 	width: 150px;
 	height: 80%;
@@ -63,7 +63,7 @@ nav div {
 
 .search:hover {
 	cursor: text;
-	background-color: #66BFCE;
+	background-color:  #33A9BE;
 }
 
 .logo {
@@ -79,7 +79,7 @@ nav div {
 }
 
 .icon {
-	background-color: #66BFCE;
+	background-color: #66A3C7;
 	height: 70%;
 	width: 30px;
 	margin-right: 5px;
@@ -106,7 +106,7 @@ nav div {
 
 .sub-menu {
 	padding-top: 5px;
-	background-color: #00AECC;
+	background-color: #0079BF;
 	height: 40px;
 	color: #FFF;
 	vertical-align: middle;
@@ -185,7 +185,56 @@ nav div {
 
 /*SECCION PRINCIPAL*/
 .principalSection {
-	background-color: #00AECC;
+	background-color: #0079BF;
 	height: 590px;
 }
 
+button {
+	width: 270px;
+	height: 40px;
+	background-color: red/*#005485*/;
+	padding: 2px 15px;
+	border: transparent;
+	border-radius: 5px;
+	margin: 20px;
+	color: #FFF; 
+	font-size: 14px;
+	opacity: 0.5;
+	text-align: left;
+}
+
+.listInput {
+	margin: 20px;
+	width: 270px;
+	height: 80px;
+	border-radius: 5px;
+	background-color: #E2E4E6;
+	padding: 2px;
+	border: transparent;
+}
+
+input {
+	margin: 20px;
+	width: 270px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #005485;
+	padding: 2px;
+	border: transparent;
+}
+::placeholder { 
+	color: #FFF; 
+	font-size: 14px;
+	opacity: 0.5;
+	padding: 10px;
+	text-align: left;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #005485;
+}
+
+#textList {
+	display: none;
+}
