@@ -192,7 +192,7 @@ nav div {
 button {
 	width: 270px;
 	height: 40px;
-	background-color: red/*#005485*/;
+	background-color: #005485;
 	padding: 2px 15px;
 	border: transparent;
 	border-radius: 5px;
@@ -236,10 +236,6 @@ button:hover{
 	background-color: #005485;
 }
 
-#textList {
-	display: none;
-}
-
 .submit {
 	background-color: #5AAC44;
 	color: #FFF;
@@ -268,3 +264,12 @@ button:hover{
 	color: #4D4D4D;
 	cursor: pointer;
 }
+
+.ocult-list {
+	display: none;
+}
+
+.show-list {
+	display: auto;
+}
+
