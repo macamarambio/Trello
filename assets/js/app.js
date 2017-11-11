@@ -1,23 +1,17 @@
+// VARIABLES PRINCIPALES
+var agregarLista = document.getElementsByClassName('principalSection')[0];
+var input1 = document.getElementById('inp1');
+var input2 = document.getElementsByClassName('listInput')[0];
 //Agregando Evento click para cambiar submit de boton a input
-var boton = document.getElementsByClassName('principalSection');
-for (var i = 0; i < boton.length; i++) {
-	boton[i].addEventListener('click', addList);
-}
 
-function addList() {
-	var text = document.getElementById('clk');
 
-	if(text.classList.contains('show-list') && text2.classList.contains('ocult-list')){
-		// cambiando texto 1 de visible a invisible
-		text.classList.remove('show-list');
-		text.classList.add('ocult-list');
-	}else{
-		text.classList.remove('ocult-list');
-		text.classList.add('show-list');
-	}
-};
 
- 
+agregarLista.addEventListener('click', function(){
+	input1.classList.add('ocult-list');
+	input2.classList.remove('ocult-list');
+
+});
+	
 
 
   	/*//Agregando Evento click para cambiar submit de boton a input
