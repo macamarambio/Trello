@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -238,19 +239,27 @@ button:hover{
 
 .submit {
 	background-color: #5AAC44;
+	outline: none;
 	color: #FFF;
 	width: 90px;
 	height: 30px;
 	opacity: 1;
 	margin-left: 4px;
-	margin-top: 4px;
+	position: relative;
+	bottom: 20px;
 }
 
-.fa-times {
+#close {
+	background-color: transparent;
+	border: none;
+	outline: none;
 	color: #aaa;
-	font-size: 20px;
-	margin-left: -10px;
-
+	width: auto;
+	height: 20px;
+	font-size: 25px;
+	position: relative;
+	bottom: 15px;
+	left: -40px;
 }
 
 .submit:hover {
@@ -269,4 +278,12 @@ button:hover{
 	display: none;
 }
 
-
+#cont2 {
+	margin: 2px;
+	width: 263px;
+	height: 33px;
+	border-radius: 5px;
+	background-color: #D7D8DA;
+	border: 1px solid #aaa;
+	font-size: 14px;
+}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trello</title>
+	<link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -45,10 +46,11 @@
 	<!-- SECCION PRINICIPAL --> 
 	<section class="principalSection">
 		 <button id='inp1'>Añadir una lista...</button>
+		 <!-- INVISIBLE HASTA QUE EL USUARIO HAGA CLICK -->
 		 <div class="listInput ocult-list">
-		 	<input name="text" cols="45" rows="3" placeholder="Añadir una lista..."></input>
+		 	<input id='text' name="text" cols="45" rows="3" placeholder="Añadir una lista..."></input>
 		 		<button id="btn" class="submit">Guardar</button>
-		 		<i class="fa fa-times" aria-hidden="true"></i>
+		 		<button id="close"><i class="fa fa-times" aria-hidden="true"></i></button>
 		 	</div>
 		 </div> 
 	</section>
