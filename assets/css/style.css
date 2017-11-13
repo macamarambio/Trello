@@ -9,6 +9,7 @@ body {
 }
 
 /*MENU*/
+
 .menu {
 	background-color: #005485;
 	color: #FFF;
@@ -185,6 +186,7 @@ nav div {
 
 
 /*SECCION PRINCIPAL*/
+
 .principalSection {
 	background-color: #0079BF;
 	height: 590px;
