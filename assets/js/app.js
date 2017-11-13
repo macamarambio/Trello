@@ -19,11 +19,15 @@ close.addEventListener('click', function(){
 
 // Agregando lista
 btn.addEventListener('click', function(){
+	cont2.classList.remove('ocult-list');
 //rescatar el texto que ingresara el usuario
 var text = document.getElementById('text').value;
 text.textContent = text; //escribe el contenido de la lista
 //limpiar input
 document.getElementById('text').value = '';
+
+
+//creando Nodos
 
 var textN = document.createTextNode(text);
 var newList = document.createElement('div');
@@ -36,8 +40,6 @@ newList.appendChild(textList);
 cont2.appendChild(newList);
 
 
-
-//rescatar el texto que ingresara el usuario
 
 });
 
